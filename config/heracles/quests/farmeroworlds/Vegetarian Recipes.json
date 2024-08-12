@@ -6,154 +6,60 @@
     "edcfp": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_flower_pie",
-      "amount": 8,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "amount": 1,
+      "collection": "AUTOMATIC"
     },
     "edcc": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_cookie",
-      "amount": 8,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "amount": 1,
+      "collection": "AUTOMATIC"
     },
-    "edes": {
+    "edcpfs": {
       "type": "heracles:item",
-      "item": "ends_delight:ender_sauce",
-      "amount": 8,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "item": "ends_delight:chorus_fruit_pie_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     },
     "edems": {
       "type": "heracles:item",
       "item": "ends_delight:end_mixed_salad",
-      "amount": 8,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "amount": 1,
+      "collection": "AUTOMATIC"
     },
     "eddbcs": {
       "type": "heracles:item",
       "item": "ends_delight:dragon_breath_and_chorus_soup",
-      "amount": 8,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "amount": 1,
+      "collection": "AUTOMATIC"
     },
     "edcfp1": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_fruit_pie",
-      "amount": 8,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "amount": 1,
+      "collection": "AUTOMATIC"
     },
     "edsrc": {
       "type": "heracles:item",
       "item": "ends_delight:stuffed_rice_cake",
-      "amount": 2,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "amount": 1,
+      "collection": "AUTOMATIC"
     },
     "edcfp0": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_fruit_popsicle",
-      "amount": 8,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "edcfps": {
-      "type": "heracles:item",
-      "item": "ends_delight:chorus_fruit_pie_slice",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "edas": {
       "type": "heracles:item",
       "item": "ends_delight:assorted_salad",
-      "amount": 8,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "1": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:wheat",
         "count": 4
@@ -161,14 +67,6 @@
       "type": "heracles:item"
     },
     "2": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "farmersdelight:cabbage",
         "count": 2
@@ -176,14 +74,6 @@
       "type": "heracles:item"
     },
     "chorus_flower": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:chorus_flower",
         "count": 8
@@ -191,14 +81,6 @@
       "type": "heracles:item"
     },
     "3": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "farmersdelight:tomato",
         "count": 2
@@ -206,14 +88,6 @@
       "type": "heracles:item"
     },
     "chorus_fruit": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:chorus_fruit",
         "count": 8
@@ -221,14 +95,6 @@
       "type": "heracles:item"
     },
     "chorus": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "ends_delight:dragon_breath_and_chorus_soup",
         "count": 8
@@ -236,14 +102,6 @@
       "type": "heracles:item"
     },
     "chorus2": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "phantasm:chorus_fruit_salad",
         "count": 8
@@ -282,10 +140,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

@@ -7,69 +7,32 @@
       "type": "heracles:item",
       "item": "ends_delight:liquid_dragon_egg",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "edhde": {
       "type": "heracles:item",
       "item": "ends_delight:half_dragon_egg_shell",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "edfde": {
       "type": "heracles:item",
       "item": "ends_delight:fried_dragon_egg",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "edde": {
       "type": "heracles:item",
-      "item": "ends_delight:dragon_egg_shell",
+      "item": "ends_delight:dragon_egg_shell_knife",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "1": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "ends_delight:non_hatchable_dragon_egg",
         "count": 1
@@ -111,10 +74,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
