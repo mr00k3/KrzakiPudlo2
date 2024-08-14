@@ -1,3 +1,28 @@
+## All of Fabric 7 | v2.5.0
+
+_Fabric Loader 0.16.0_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.5.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.5.0.md)_
+
+### Changes/Improvements ⭐
+
+* Allow elytra flight without killing the Ender Dragon first.
+
+### Bug Fixes 🪲
+
+* Fixed all crashes with Ice & Fire as it's now removed.
+* Fixed Fake Dragon Egg quest not working.
+* Fixed Vegetarian Recipes quest not working.
+
+### Added Mods ✅
+
+  * [Modonomicon](https://www.curseforge.com/minecraft/mc-mods/modonomicon)
+  * [TCDCommons API](https://www.curseforge.com/minecraft/mc-mods/tcdcommons)
+
+### Removed Mods ❌
+
+  * [Ice And Fire](https://www.curseforge.com/minecraft/mc-mods/iceandfire-fabric)
+  * [Uranus](https://www.curseforge.com/minecraft/mc-mods/uranus)
+---
+
 ## All of Fabric 7 | v2.4.5
 
 _Fabric Loader 0.15.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.4.5.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.4.5.md)_
