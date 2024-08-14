@@ -4,7 +4,6 @@
 
 ### Added
 
-  * [Jupiter](https://www.curseforge.com/minecraft/mc-mods/jupiter) (by [IAFEnvoy](https://www.curseforge.com/members/IAFEnvoy/projects))
   * [Modonomicon](https://www.curseforge.com/minecraft/mc-mods/modonomicon) (by [kli_kli](https://www.curseforge.com/members/kli_kli/projects))
   * [TCDCommons API](https://www.curseforge.com/minecraft/mc-mods/tcdcommons) (by [TheCSDev](https://www.curseforge.com/members/TheCSDev/projects))
 

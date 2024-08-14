@@ -199,7 +199,6 @@
   * [Jewelry-1.3.6+1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/jewelry/files/5614800) (by [daedelus_dev](https://www.curseforge.com/members/daedelus_dev/projects))
   * [xercapaint-fabric-1.20.1-1.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/joy-of-painting/files/5592163) (by [xerca0](https://www.curseforge.com/members/xerca0/projects))
   * [jumpoverfences-1.0-SNAPSHOT.jar](https://www.curseforge.com/minecraft/mc-mods/jumpoverfences/files/4714524) (by [Martmists](https://www.curseforge.com/members/Martmists/projects))
-  * [Jupiter-0.5-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/jupiter/files/5627086) (by [IAFEnvoy](https://www.curseforge.com/members/IAFEnvoy/projects))
   * [justenoughbreeding-fabric-1.20.x-1.2.4.jar](https://www.curseforge.com/minecraft/mc-mods/justenoughbreeding/files/5532539) (by [Christofmeg](https://www.curseforge.com/members/Christofmeg/projects))
   * [kibe-1.10.1-BETA+1.20.jar](https://www.curseforge.com/minecraft/mc-mods/kibe/files/4648536) (by [D4rkness_King](https://www.curseforge.com/members/D4rkness_King/projects))
   * [kibecompat-0.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/kibe-compat/files/5300866) (by [dandin87](https://www.curseforge.com/members/dandin87/projects))
