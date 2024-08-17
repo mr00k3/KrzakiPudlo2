@@ -1,3 +1,12 @@
+## All of Fabric 7 | v2.5.1
+
+_Fabric Loader 0.16.0_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.5.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.5.1.md)_
+
+### Bug Fixes 🪲
+
+* Fixed a crash when searching in REI related to Milk. 
+---
+
 ## All of Fabric 7 | v2.5.0
 
 _Fabric Loader 0.16.0_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.5.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.5.0.md)_
