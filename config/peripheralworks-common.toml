@@ -81,11 +81,11 @@
 [operations]
 	#Range: > 1
 	portableUniversalScanMaxCostRadius = 16
-	#Range: > 1000
+	#Range: > 0
 	stationaryUniversalScanCooldown = 1000
 	#Range: > 1
 	stationaryUniversalScanMaxFreeRadius = 24
-	#Range: > 1000
+	#Range: > 0
 	portableUniversalScanCooldown = 1000
 	#Range: > 1
 	portableUniversalScanMaxFreeRadius = 8
@@ -93,11 +93,11 @@
 	portableUniversalScanExtraBlockCost = 0.17
 	#Range: 0.1 ~ 1.7976931348623157E308
 	stationaryUniversalScanExtraBlockCost = 0.1
-	#Range: > 1000
+	#Range: > 0
 	inspectChunkCooldown = 10000
-	#Range: > 1000
+	#Range: > 0
 	updateMapCooldown = 60000
-	#Range: > 1000
+	#Range: > 0
 	extractMapCooldown = 10000
 	#Range: > 1
 	stationaryUniversalScanMaxCostRadius = 24
@@ -116,6 +116,9 @@
 	[integrations.alloy_forgery]
 		#Enables alloy forgery integration
 		enableAlloyForgery = true
+	[integrations.create]
+		#Enables create integration
+		enableCreateIntegration = true
 	[integrations.team_reborn_energy]
 		#Enables energy storage integration
 		enableEnergyStorage = true

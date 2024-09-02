@@ -23,5 +23,6 @@
   "zenith:spawner": true,
   "zenith:adventure": true,
   "megane:alloy-forgery": true,
-  "revelationary:plugin": true
+  "revelationary:plugin": true,
+  "frightsdelight:plugin": true
 }

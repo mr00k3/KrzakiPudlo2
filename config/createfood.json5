@@ -255,10 +255,8 @@
 	"isChocolateChocolatePastryEnabled": true,
 	// Enable Chocolate Filled Pastry.
 	"isChocolatePastryEnabled": true,
-	// Enable Chocolate Filled Graham Cracker Pie Crust.
-	"isChocolateFilledGrahamCrackerPieCrustEnabled": true,
-	// Enable Chocolate Filled Mini Graham Cracker Pie Crust.
-	"isChocolateFilledMiniGrahamCrackerPieCrustEnabled": true,
+	// Enable Mini Chocolate Pie (Graham Cracker).
+	"isMiniChocolatePieGrahamCrackerEnabled": true,
 	// Enable Chocolate Frosted Chocolate Sweet Roll.
 	"isChocolateFrostedChocolateSweetRollEnabled": true,
 	// Enable Chocolate Frosted Sweet Roll.
@@ -335,6 +333,8 @@
 	"isChorusFruitPopsicleEnabled": true,
 	// Enable Chorus Fruit Slice.
 	"isChorusFruitSliceEnabled": true,
+	// Enable Cream Cheese.
+	"isCreamCheeseEnabled": true,
 	// Enable Cream Chocolate.
 	"isCreamChocolateEnabled": true,
 	// Enable Cream Dark Chocolate.
@@ -725,6 +725,8 @@
 	"isVegetableSandwichBeetrootLettuceEnabled": true,
 	// Enable Vegetable Sandwich (Lettuce, Tomato).
 	"isVegetableSandwichLettuceTomatoEnabled": true,
+	// Enable Vinegar
+	"isVinegarBottleEnabled": true,
 	// Enable White Chips Chocolate Cookie.
 	"isWhiteChipsChocolateCookieEnabled": true,
 	// Enable White Chips Cookie.
@@ -751,6 +753,8 @@
 	"isYellowGelatinDessertSliceEnabled": true,
 	// Enable Yogurt.
 	"isYogurtBottleEnabled": true,
+	// Enable Apple Cheesecake.
+	"isAppleCheesecakeEnabled": true,
 	// Enable Bacon Pizza.
 	"isBaconPizzaEnabled": true,
 	// Enable Black Gelatin Dessert Block.
@@ -759,8 +763,38 @@
 	"isBlueGelatinDessertBlockEnabled": true,
 	// Enable Brown Gelatin Dessert Block.
 	"isBrownGelatinDessertBlockEnabled": true,
+	// Enable Berry Cream Cake (Chorus Fruit).
+	"isBerryCreamCakeChorusFruitEnabled": true,
+	// Enable Berry Cream Cake (Glow Berry).
+	"isBerryCreamCakeGlowBerryEnabled": true,
+	// Enable Berry Cream Cake (Sweet Berry).
+	"isBerryCreamCakeSweetBerryEnabled": true,
+	// Enable Berry Cream Frosted Cake.
+	"isBerryCreamFrostedCakeEnabled": true,
+	// Enable Berry Pie.
+	"isBerryPieEnabled": true,
 	// Enable Cheese Pizza.
 	"isCheesePizzaEnabled": true,
+	// Enable Cake (Chorus Fruit).
+	"isCakeChorusFruitEnabled": true,
+	// Enable Cake (Glow Berry).
+	"isCakeGlowBerryEnabled": true,
+	// Enable Cheesecake.
+	"isCheesecakeEnabled": true,
+	// Enable Chocolate Pie (Graham Cracker).
+	"isChocolatePieGrahamCrackerEnabled": true,
+	// Enable Chorus Fruit Cheesecake.
+	"isChorusFruitCheesecakeEnabled": true,
+	// Enable Chorus Fruit Cream Cake (Chorus Fruit).
+	"isChorusFruitCreamCakeChorusFruitEnabled": true,
+	// Enable Chorus Fruit Cream Cake (Glow Berry).
+	"isChorusFruitCreamCakeGlowBerryEnabled": true,
+	// Enable Chorus Fruit Cream Cake (Sweet Berry).
+	"isChorusFruitCreamCakeSweetBerryEnabled": true,
+	// Enable Chorus Fruit Cream Frosted Cake.
+	"isChorusFruitCreamFrostedCakeEnabled": true,
+	// Enable Chorus Fruit Pie.
+	"isChorusFruitPieEnabled": true,
 	// Enable Cyan Gelatin Dessert Block.
 	"isCyanGelatinDessertBlockEnabled": true,
 	// Enable Fish Pizza.
@@ -775,6 +809,18 @@
 	"isGrayGelatinDessertBlockEnabled": true,
 	// Enable Green Gelatin Dessert Block.
 	"isGreenGelatinDessertBlockEnabled": true,
+	// Enable Glow Berry Cheesecake.
+	"isGlowBerryCheesecakeEnabled": true,
+	// Enable Glow Berry Cream Cake (Chorus Fruit).
+	"isGlowBerryCreamCakeChorusFruitEnabled": true,
+	// Enable Glow Berry Cream Cake (Glow Berry).
+	"isGlowBerryCreamCakeGlowBerryEnabled": true,
+	// Enable Glow Berry Cream Cake (Sweet Berry).
+	"isGlowBerryCreamCakeSweetBerryEnabled": true,
+	// Enable Glow Berry Cream Frosted Cake.
+	"isGlowBerryCreamFrostedCakeEnabled": true,
+	// Enable Glow Berry Pie.
+	"isGlowBerryPieEnabled": true,
 	// Enable Light Blue Gelatin Dessert Block.
 	"isLightBlueGelatinDessertBlockEnabled": true,
 	// Enable Light Gray Gelatin Dessert Block.
@@ -805,16 +851,40 @@
 	"isPizzaDoughEnabled": true,
 	// Enable Pizza Dough (Tomato Sauce).
 	"isPizzaDoughTomatoSauceEnabled": true,
+	// Enable Raw Apple Cheesecake.
+	"isRawAppleCheesecakeEnabled": true,
+	// Enable Raw Apple Pie.
+	"isRawApplePieEnabled": true,
 	// Enable Raw Bacon Pizza.
 	"isRawBaconPizzaEnabled": true,
+	// Enable Raw Berry Cheesecake.
+	"isRawBerryCheesecakeEnabled": true,
+	// Enable Raw Berry Pie.
+	"isRawBerryPieEnabled": true,
 	// Enable Raw Cheese Pizza.
 	"isRawCheesePizzaEnabled": true,
+	// Enable Raw Cheesecake.
+	"isRawCheesecakeEnabled": true,
+	// Enable Raw Chocolate Pie.
+	"isRawChocolatePieEnabled": true,
+	// Enable Raw Chocolate Pie (Graham Cracker).
+	"isRawChocolatePieGrahamCrackerEnabled": true,
+	// Enable Raw Chorus Fruit Pie.
+	"isRawChorusFruitPieEnabled": true,
+	// Enable Raw Chorus Fruit Cheesecake.
+	"isRawChorusFruitCheesecakeEnabled": true,
 	// Enable Raw Fish Pizza.
 	"isRawFishPizzaEnabled": true,
 	// Enable Raw Fish & Bacon Pizza.
 	"isRawFishBaconPizzaEnabled": true,
 	// Enable Raw Fish & Onion Pizza.
 	"isRawFishOnionPizzaEnabled": true,
+	// Enable Raw Glow Berry Pie.
+	"isRawGlowBerryPieEnabled": true,
+	// Enable Raw Glow Berry Cheesecake.
+	"isRawGlowBerryCheesecakeEnabled": true,
+	// Enable Raw Graham Cracker Pie Crust.
+	"isRawGrahamCrackerPieCrustEnabled": true,
 	// Enable Raw Mushroom Pizza.
 	"isRawMushroomPizzaEnabled": true,
 	// Enable Raw Mushroom & Bacon Pizza.
@@ -827,6 +897,8 @@
 	"isRawOnionPizzaEnabled": true,
 	// Enable Raw Onion & Bacon Pizza.
 	"isRawOnionBaconPizzaEnabled": true,
+	// Enable Raw Pie Crust.
+	"isRawPieCrustEnabled": true,
 	// Enable Raw Sausage Pizza.
 	"isRawSausagePizzaEnabled": true,
 	// Enable Raw Sausage & Bacon Pizza.
@@ -863,6 +935,8 @@
 	"isAppleJuiceFluidEnabled": true,
 	// Enable Apple Milkshake Fluid.
 	"isAppleMilkshakeFluidEnabled": true,
+	// Enable Apple Pie Filling Fluid.
+	"isApplePieFillingFluidEnabled": true,
 	// Enable Berry Cream Frosting Fluid.
 	"isBerryCreamFrostingFluidEnabled": true,
 	// Enable Berry Ice Cream Fluid.
@@ -873,6 +947,8 @@
 	"isBerryJuiceFluidEnabled": true,
 	// Enable Berry Milkshake Fluid.
 	"isBerryMilkshakeFluidEnabled": true,
+	// Enable Berry Pie Filling Fluid.
+	"isBerryPieFillingFluidEnabled": true,
 	// Enable Blackstrap Molasses Fluid.
 	"isBlackstrapMolassesFluidEnabled": true,
 	// Enable Black Gelatin Mix Fluid.
@@ -915,8 +991,14 @@
 	"isChorusFruitJuiceFluidEnabled": true,
 	// Enable Chorus Fruit Milkshake Fluid.
 	"isChorusFruitMilkshakeFluidEnabled": true,
+	// Enable Chorus Fruit Pie Filling Fluid.
+	"isChorusFruitPieFillingFluidEnabled": true,
+	// Enable Cheesecake Filling Fluid.
+	"isCheesecakeFillingFluidEnabled": true,
 	// Enable Condensed Milk Fluid.
 	"isCondensedMilkFluidEnabled": true,
+	// Enable Cream Cheese Fluid .
+	"isCreamCheeseFluidEnabled": true,
 	// Enable Cream Frosting Fluid.
 	"isCreamFrostingFluidEnabled": true,
 	// Enable Cyan Gelatin Mix Fluid.
@@ -939,6 +1021,8 @@
 	"isGlowBerryJuiceFluidEnabled": true,
 	// Enable Glow Berry Milkshake Fluid.
 	"isGlowBerryMilkshakeFluidEnabled": true,
+	// Enable Glow Berry Pie Filling Fluid.
+	"isGlowBerryPieFillingFluidEnabled": true,
 	// Enable Gray Gelatin Mix Fluid.
 	"isGrayGelatinMixFluidEnabled": true,
 	// Enable Green Gelatin Mix Fluid.
@@ -995,6 +1079,8 @@
 	"isToffeeFudgeFluidEnabled": true,
 	// Enable Vegetable Oil Fluid.
 	"isVegetableOilFluidEnabled": true,
+	// Enable Vinegar Fluid .
+	"isVinegarFluidEnabled": true,
 	// Enable White Chocolate Fluid.
 	"isWhiteChocolateFluidEnabled": true,
 	// Enable White Chocolate Fudge Fluid.
@@ -1217,8 +1303,8 @@
 	"isSmokedCornStickEnabled": false,
 	// Enable Tortilla Chip Bowl.
 	"isTortillaChipBowlEnabled": true,
-	// Enable Frosted Ube Cake.
-	"isFrostedUbeCakeEnabled": false,
+	// Enable Ube Cream Frosted Ube Cake.
+	"isUbeCreamFrostedUbeCakeEnabled": false,
 	// Enable Raw Ginger Cookie.
 	"isRawGingerCookieEnabled": false,
 	// Enable Raw Ube Cake Base.

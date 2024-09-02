@@ -902,6 +902,17 @@
         "value": 2048
       }
     },
+    "spell_power:resistance.generic": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "dml-refabricated:shulker_friendly": {
       "enabled": false,
       "min": {
