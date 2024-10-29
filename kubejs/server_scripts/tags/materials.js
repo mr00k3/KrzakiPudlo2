@@ -58,16 +58,6 @@ ServerEvents.tags('item', event => {
     event.add('c:zinc_plates', 'techreborn:zinc_plate')
     event.add('c:brass_plates', 'techreborn:brass_plate')
 
-    // Modern Industrialization
-    event.add("c:copper_rods", "modern_industrialization:copper_rod")
-    event.add("c:rods/copper", "modern_industrialization:copper_rod")
-    event.add("c:gold_rods", "modern_industrialization:gold_rod")
-    event.add("c:rods/gold", "modern_industrialization:gold_rod")
-    event.add("c:rods/iron", "modern_industrialization:iron_rod")
-    event.add("c:iron_rods", "modern_industrialization:iron_rod")
-    event.add("c:steel_rods", "modern_industrialization:steel_rod")
-    event.add("c:dusts/diamond", "modern_industrialization:diamond_dust")
-
     const small_dusts = [
         'emerald',
         'bauxite',
@@ -87,26 +77,6 @@ ServerEvents.tags('item', event => {
 
     ];
 
-    small_dusts.forEach((item) => {
-        event.add('c:' + item + '_small_dusts', 'modern_industrialization:' + item + '_tiny_dust');
-    });
-
-    event.add("c:plates/gold", "modern_industrialization:gold_plate")
-    event.add("c:plates/iron", "modern_industrialization:iron_plate")
-    event.add("c:plates/copper", "modern_industrialization:copper_plate")
-    event.add("c:nuggets/copper", "modern_industrialization:copper_nugget")
-    event.add("c:plates/bronze", "modern_industrialization:bronze_plate")
-
-    // Indrev
-    event.add('c:raw_lead_blocks', 'indrev:raw_lead_block')
-    event.add('c:raw_silver_blocks', 'indrev:raw_silver_block')
-    event.add('c:raw_tungsten_blocks', 'indrev:raw_tungsten_block')
-    event.add('c:raw_tin_blocks', 'indrev:raw_tin_block')
-
-    // Create Filtering
-    event.add("c:plates", "modern_industrialization:iron_plate")
-    event.add("c:plates", "modern_industrialization:gold_plate")
-    event.add("c:plates", "modern_industrialization:copper_plate")
 
     // Create Deco
     event.add("c:netherite_nuggets", 'createdeco:netherite_nugget')

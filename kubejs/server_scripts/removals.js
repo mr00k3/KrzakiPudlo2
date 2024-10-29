@@ -12,14 +12,12 @@ ServerEvents.recipes((event) => {
         'bewitchment:silver_ingot_from_blasting_raw_silver',
         'bewitchment:silver_ingot_from_smelting_deepslate_silver_ore',
         'bewitchment:silver_ingot_from_smelting_raw_silver',
-        'create:blasting/platinum_ingot_compat_modern_industrialization',
         'create:crafting/appliances/dough',
         'createfood:beachparty/mini_fridge_mixing/apple_popsicle_from_mini_fridge',
         'createfood:beachparty/mini_fridge_mixing/berry_popsicle_from_mini_fridge',
         'createfood:beachparty/mini_fridge_mixing/glow_berry_popsicle_from_mini_fridge',
         'createfood:beachparty/mini_fridge_mixing/melon_popsicle_from_mini_fridge',
         'create:mixing/plant_oil',
-        'create:smelting/platinum_ingot_compat_modern_industrialization',
         'croptopia:cabbage_to_cabbage_seed_shapeless',
         'croptopia:onion_to_onion_seed_shapeless',
         'croptopia:rice_to_rice_seed_shapeless',
@@ -28,46 +26,6 @@ ServerEvents.recipes((event) => {
         'farmersdelight:wheat_dough',
         'farmersdelight:wheat_dough_from_eggs',
         'farmersdelight:wheat_dough_from_water',
-        'indrev:blasting/silver_ingot_from_ore',
-        'indrev:blasting/tungsten_ingot_from_ore',
-        'indrev:blasting/tungsten_ingot_from_raw_ores',
-        'indrev:blasting/tungsten_ingot_from_smelting',
-        'indrev:compressing/empty_upgrade',
-        'indrev:infusing/steel_dust',
-        'indrev:shaped/raw_lead_block',
-        'indrev:shaped/raw_silver_block',
-        'indrev:shapeless/copper_ingot_from_block',
-        'indrev:shapeless/raw_lead',
-        'indrev:shapeless/raw_silver',
-        'indrev:shapeless/steel_dust',
-        'indrev:smelting/silver_ingot_from_ore',
-        'indrev:smelting/tungsten_ingot_from_ore',
-        'indrev:smelting/tungsten_ingot_from_raw_ores',
-        'indrev:smelting/tungsten_ingot_from_smelting',
-        'iron-jetpacks:advanced_coil',
-        'iron-jetpacks:basic_coil',
-        'iron-jetpacks:bubble_capacitor',
-        'iron-jetpacks:bubble_cell',
-        'iron-jetpacks:electrum_capacitor',
-        'iron-jetpacks:electrum_cell',
-        'iron-jetpacks:elite_coil',
-        'iron-jetpacks:expert_coil',
-        'iron-jetpacks:netherite_capacitor',
-        'iron-jetpacks:netherite_cell',
-        'iron-jetpacks:platinum_capacitor',
-        'iron-jetpacks:platinum_cell',
-        'iron-jetpacks:steel_capacitor',
-        'iron-jetpacks:steel_cell',
-        'iron-jetpacks:ultimate_coil',
-        'modern_industrialization:compat/ae2/quarry_ae2',
-        'modern_industrialization:compat/indrev/macerator/_c_silver_ores_to_indrev_raw_silver',
-        'modern_industrialization:compat/indrev/quarry_nikolite',
-        'modern_industrialization:compat/techreborn/macerator/minecraft_ender_pearl_to_techreborn_ender_pearl_dust',
-        'modern_industrialization:materials/electrolyzer/uu_matter',
-        'modern_industrialization:quarry/bronze',
-        'modern_industrialization:quarry/gold',
-        'modern_industrialization:quarry/steel',
-        'modern_industrialization:quarry/titanium',
         'regions_unexplored:raw_redstone_block',
         'tconstruct:smeltery/casting/metal/platinum/block',
         'tconstruct:smeltery/casting/metal/platinum/ingot_gold_cast',
@@ -171,17 +129,10 @@ ServerEvents.recipes((event) => {
         'croptopia:cooked_bacon',
         'croptopia:knife',
         'bewitchment:raw_silver_block',
-        'modern_industrialization:uu_matter',
         'craftingcraft:portable_crafting',
         'kibe:pocket_crafting_table',
-        'indrev:bronze_sword',
-        'indrev:bronze_pickaxe',
-        'indrev:bronze_axe',
-        'indrev:bronze_shovel',
-        'indrev:bronze_hoe',
         'kibe:big_torch',
         'dwarfcoal:dwarf_charcoal',
-        'indrev:hammer',
         'campanion:mre',
         'additionaladditions:fried_egg',
         'twilightforest:uncrafting_table',
@@ -190,18 +141,6 @@ ServerEvents.recipes((event) => {
         'techreborn:steel_chestplate',
         'techreborn:steel_leggings',
         'techreborn:steel_boots',
-        'indrev:bronze_helmet',
-        'indrev:bronze_chestplate',
-        'indrev:bronze_leggings',
-        'indrev:bronze_boots',
-        'indrev:silver_helmet',
-        'indrev:silver_chestplate',
-        'indrev:silver_leggings',
-        'indrev:silver_boots',
-        'indrev:copper_helmet',
-        'indrev:copper_chestplate',
-        'indrev:copper_leggings',
-        'indrev:copper_boots',
         'bakery:strawberry_seeds',
         'techreborn:sapphire_helmet',
         'techreborn:sapphire_chestplate',
@@ -233,8 +172,7 @@ ServerEvents.recipes((event) => {
         'mythicmetals:copper_helmet',
         'mythicmetals:copper_chestplate',
         'mythicmetals:copper_leggings',
-        'mythicmetals:copper_boots',
-        'kubejs:completionist_cup'
+        'mythicmetals:copper_boots'
     ];
 
     id.forEach((id) => {
@@ -271,21 +209,6 @@ ServerEvents.recipes((event) => {
         event.remove({ id: 'techreborn:crafting_table/ingot/' + item + '_ingot_from_block'});
         event.remove({ id: 'techreborn:crafting_table/storage_block/' + item + '_storage_block'});
         event.remove({ id: 'techreborn:crafting_table/raw/raw_' + item + '_from_block'});
-    });
-
-    const rei_unification_indrev = [
-        'tungsten',
-        'electrum',
-        'tin',
-        'bronze',
-        'steel',
-        'lead'
-
-    ];
-
-    rei_unification_indrev.forEach((item) => {
-        event.remove({ id: 'indrev:shapeless/' + item + '_ingot_from_block'});
-        event.remove({ id: 'indrev:shapeless/' + item + '_nugget'});
     });
 
     const rei_unification_mythicmetals = [
@@ -333,7 +256,4 @@ ServerEvents.recipes((event) => {
 
     ];
 
-    plates.forEach((plates) => {
-        event.remove({ id: 'indrev:shapeless/' + plates + '_plate_from_hammer' });
-    });
 });

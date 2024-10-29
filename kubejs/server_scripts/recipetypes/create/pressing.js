@@ -19,23 +19,6 @@ ServerEvents.recipes(event => {
 
     ];
 
-    plates.forEach((item) => {
-        event.custom({
-            "type": "create:pressing",
-            "ingredients": [
-                {
-                    "tag": "c:" + item + "_ingots"
-                }
-            ],
-            "results": [
-                {
-                    "item": "modern_industrialization:" + item + "_plate",
-                    "count": 1
-                },
-            ],
-        })
-    });
-
     event.custom({
     "type": "create:pressing",
     "ingredients": [

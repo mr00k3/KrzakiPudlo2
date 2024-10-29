@@ -1,20 +1,5 @@
 
 const DELETED_ITEMS = [
-    'iron-jetpacks:bubble_capacitor',
-    'iron-jetpacks:steel_capacitor',
-    'iron-jetpacks:electrum_capacitor',
-    'iron-jetpacks:platinum_capacitor',
-    'iron-jetpacks:netherite_capacitor',
-    'iron-jetpacks:bubble_cell',
-    'iron-jetpacks:steel_cell',
-    'iron-jetpacks:electrum_cell',
-    'iron-jetpacks:platinum_cell',
-    'iron-jetpacks:netherite_cell',
-    'iron-jetpacks:basic_coil',
-    'iron-jetpacks:advanced_coil',
-    'iron-jetpacks:elite_coil',
-    'iron-jetpacks:expert_coil',
-    'iron-jetpacks:ultimate_coil',
     'createdieselgenerators:plant_oil',
     'createdieselgenerators:ethanol',
     'createdieselgenerators:plant_oil_bucket',
@@ -38,7 +23,6 @@ const DELETED_ITEMS = [
     'blockus:bamboo_barrel',
     'blockus:charred_barrel',
     'bakery:strawberry_seeds',
-    'create_jetpack:jetpack_placeable',
     'techreborn:deepslate_ruby_ore',
     'techreborn:deepslate_sapphire_ore',
     'techreborn:sapphire_helmet',
@@ -72,11 +56,7 @@ const DELETED_ITEMS = [
     'mythicmetals:copper_helmet',
     'mythicmetals:copper_chestplate',
     'mythicmetals:copper_leggings',
-    'mythicmetals:copper_boots',
-    'indrev:copper_helmet',
-    'indrev:copper_chestplate',
-    'indrev:copper_leggings',
-    'indrev:copper_boots'
+    'mythicmetals:copper_boots'
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));

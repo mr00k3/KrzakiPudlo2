@@ -97,34 +97,4 @@ ServerEvents.recipes(event => {
         ],
         heatRequirement: 'superheated'
     })
-    /*
-    // Glue
-    event.custom({
-        "type": "create:mixing",
-        "ingredients": [
-            {
-                "item": "minecraft:bone_meal",
-            },
-            {
-                "item": "minecraft:bone_meal",
-            },
-            {
-                "item": "minecraft:bone_meal",
-            },
-            {
-                "item": "minecraft:bone_meal",
-            },
-            {
-                "fluid": "modern_industrialization:acrylic_glue",
-                "amount": 4050
-            }
-        ],
-        "results": [
-            {
-                "item": "kubejs:glue",
-                "count": 5
-            },
-        ],
-    })
-    */
 })
