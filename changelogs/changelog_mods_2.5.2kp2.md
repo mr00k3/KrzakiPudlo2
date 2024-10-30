@@ -1,4 +1,4 @@
-## All of Fabric 7 - 2.5.1 -> 2.5.2
+## All of Fabric 7 - 2.5.2 -> KrzakiPudło2 | All Of Fabric 7 2.5.2
 
 ### Removed
   * [deepmoblearning-refabricated-0.6.1-BETA+1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-refabricated/files/5305092) (by [NathanPB](https://www.curseforge.com/members/NathanPB/projects))
@@ -11,7 +11,6 @@
   * [Powah-5.0.7.jar](https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected/files/5604169) (by [thetechnici4n](https://www.curseforge.com/members/thetechnici4n/projects))
   * [spectrum-jetpacks-1.0.3+1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/spectrum-jetpacks/files/4998052) (by [Mayaqq](https://www.curseforge.com/members/Mayaqq/projects))
 ### Added
-
   * [azurelib-fabric-1.20.1-2.0.39.jar](https://www.curseforge.com/minecraft/mc-mods/azurelib) (by [AzureDoomC](https://www.curseforge.com/members/azuredoomc/projects))
   * [createbigcannons-5.5.1-mc.1.20.1-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/create-big-cannons) (by [rbasamoyai](https://www.curseforge.com/members/rbasamoyai/projects))
   * [iceandfire-0.6.4.jar](https://www.curseforge.com/minecraft/mc-mods/iceandfire-fabric) (by [iafenvoy](https://www.curseforge.com/members/iafenvoy/projects))

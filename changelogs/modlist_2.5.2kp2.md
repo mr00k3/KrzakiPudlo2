@@ -1,4 +1,4 @@
-## KrzakiPudło 2 - All of Fabric 7 - 2.5.2
+## KrzakiPudło 2 | All of Fabric 7 - 2.5.2
 
   * [accelerated-decay-fabric-3.0.1+mc1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/accelerated-decay/files/4863305) (by [ErrorMikey](https://www.curseforge.com/members/ErrorMikey/projects))
   * [ad_astra-fabric-1.20.1-1.15.18.jar](https://www.curseforge.com/minecraft/mc-mods/ad-astra/files/5116772) (by [AlexNijjar](https://www.curseforge.com/members/AlexNijjar/projects))

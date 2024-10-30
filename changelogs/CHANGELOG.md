@@ -1,4 +1,15 @@
-## All of Fabric 7 | v2.5.1
+## KrzakiPudlo 2 | All of Fabric 7 | v2.5.2
+
+_Fabric Loader 0.16.0_ | _[Mod Updates](/changelogs/changelog_mods_2.5.2kp2.md)_ | _[Modlist](/changelogs/modlist_2.5.2kp2.md)_
+
+### Changes
+
+* Removed some tech mods
+* Added more adventure mods
+---
+
+
+## All of Fabric 7 | v2.5.2
 
 _Fabric Loader 0.16.0_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.5.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.5.2.md)_
 
